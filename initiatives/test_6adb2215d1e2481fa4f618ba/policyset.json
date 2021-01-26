@@ -1,0 +1,37 @@
+{
+ "properties": {
+  "displayName": "test",
+  "policyType": "Custom",
+  "metadata": {
+   "createdBy": "edcef860-c688-40f3-8305-c141be88e0c3",
+   "createdOn": "2021-01-26T08:50:05.4506411Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Audit virtual machines without disaster recovery configured_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Vulnerability assessment should be enabled on your Synapse workspaces_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0049a6b3-a662-4f3e-8635-39cf44ace45a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/53f7c5ff-ed5a-47cd-98c0-acd70e1f1e88/providers/Microsoft.Authorization/policySetDefinitions/6adb2215d1e2481fa4f618ba",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "6adb2215d1e2481fa4f618ba"
+}

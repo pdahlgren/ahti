@@ -1,0 +1,66 @@
+{
+ "properties": {
+  "displayName": "Ahmanet-Policy-Set",
+  "policyType": "Custom",
+  "metadata": {
+   "parameterScopes": {
+    "listOfAllowedLocations": "/subscriptions/53f7c5ff-ed5a-47cd-98c0-acd70e1f1e88"
+   },
+   "createdBy": "edcef860-c688-40f3-8305-c141be88e0c3",
+   "createdOn": "2021-01-26T09:38:52.5241465Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Allowed locations for resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e765b5de-1225-4ba3-bd56-1ac6695af988",
+    "parameters": {
+     "listOfAllowedLocations": {
+      "value": [
+       "westeurope",
+       "northeurope"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Allowed locations_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+    "parameters": {
+     "listOfAllowedLocations": {
+      "value": [
+       "westeurope",
+       "northeurope"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "RDP access from the Internet should be blocked_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e372f825-a257-4fb8-9175-797a8a8627d6",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SSH access from the Internet should be blocked_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2c89a2e5-7285-40fe-afe0-ae8654b92fab",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit resource location matches resource group location_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0a914e76-4921-4c19-b460-a2d36003525a",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/53f7c5ff-ed5a-47cd-98c0-acd70e1f1e88/providers/Microsoft.Authorization/policySetDefinitions/77359cd1d1f6488a89ccb1ce",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "77359cd1d1f6488a89ccb1ce"
+}
